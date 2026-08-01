@@ -25,18 +25,3 @@ A Python-based automation project that captures images from a webcam at fixed in
 - Raspberry Pi (remote device)
 - Linux file system
 
----
-
----
-
-## ⚙️ Configuration
-
-Before running the script, update the following variables in `photo_transfer.py`:
-
-```python
-REMOTE_HOST = "192.168.1.10"
-REMOTE_USER = "hp"
-REMOTE_PASSWORD = "raspberrypi"
-REMOTE_PATH = "/media/hp/MyMedia USB/ps/ps/images"
-
-PHOTO_INTERVAL = 60  # seconds between captures
